@@ -8,9 +8,9 @@ import React from 'react'
 //   )
 // }
 
-const Greet = ()=> {
+const Greet = (props)=> {
     return(
-        <h1>samad</h1>
+        <h1>Hello {props.name}</h1>
     )
     
 }
