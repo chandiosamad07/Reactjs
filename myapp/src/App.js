@@ -8,12 +8,14 @@ import Counter from "./components/Counter";
 import Hookcounter from "./components/Hookcounter";
 import FuncationClick from "./components/FuncationClick";
 import ClassClick from "./components/ClassClick";
+import EventBind from "./components/EventBind";
 
 function App() {
   return (
     <div className="App">
-      <FuncationClick/>
-      <ClassClick/>
+      <EventBind />
+      {/* <FuncationClick/>
+      <ClassClick/> */}
       {/* <Hookcounter/> */}
       {/* <Counter/> */}
       {/* <Message/> */}   
