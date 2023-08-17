@@ -6,11 +6,15 @@ import Hello from "./components/Hello";
 import Message from "./components/Message";
 import Counter from "./components/Counter";
 import Hookcounter from "./components/Hookcounter";
+import FuncationClick from "./components/FuncationClick";
+import ClassClick from "./components/ClassClick";
 
 function App() {
   return (
     <div className="App">
-      <Hookcounter/>
+      <FuncationClick/>
+      <ClassClick/>
+      {/* <Hookcounter/> */}
       {/* <Counter/> */}
       {/* <Message/> */}   
       {/* <Greet name="Abdul"/>
