@@ -15,10 +15,12 @@ import NameList from "./components/NameList";
 import Stylesheet from "./components/Stylesheet";
 import Inline from "./components/Inline";
 import Form from "./components/Form";
+import LifecycleA from "./components/LifecycleA";
 function App() {
   return (
     <div className="App">
-      <Form></Form>
+      <LifecycleA />
+      {/* <Form></Form> */}
       {/* <Inline /> */}
      {/* <Stylesheet></Stylesheet> */}
       {/* <NameList/> */}
