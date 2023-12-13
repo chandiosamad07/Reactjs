@@ -18,8 +18,11 @@ const Banner = () => {
             loop= {true}
             backSpeed={120}
             />
+
         </div>
+        <button className='bg-[black] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-white'>Get Started</button>
       </div>
+      
     </div>
   )
 }
