@@ -3,12 +3,12 @@ import React from 'react'
 const Expert = () => {
   return (
     <div className='max-w-[1240px] p-2 mx-auto my-10  md:grid grid-cols-2'>
-     <div className=' col-span-1 w-[80%]'>
-    <img src="./laptop.jpg" alt="" />
+     <div className=' col-span-1 md:w-[80%] text-center'>
+    <img src="./laptop.jpg" alt="" className='inline'/>
      </div>
      <div className='flex flex-col justify-center'>
           <p className='text-[#00df9a] font-bold'>LEARN FROM EXPERTS</p>
-          <p>
+          <p className='my-2 text-justify'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
             molestiae delectus culpa hic assumenda, voluptate reprehenderit
             dolore autem cum ullam sed odit perspiciatis. Doloribus quos velit,
