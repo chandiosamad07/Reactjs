@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className="bg-[#2699fb] p-4">
       <div className="max-w-[1240px] py-[15px] items-center  flex justify-between mx-auto">
-        <div className="text-3xl font-bold">WsCube Teach</div>
+        <div className="text-3xl font-bold">Samad Teach</div>
         {tooggle ? (
           <MdOutlineMenu
             onClick={() => setToggle(!tooggle)}
