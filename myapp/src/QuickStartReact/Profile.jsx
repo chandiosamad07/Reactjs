@@ -14,6 +14,7 @@ const Profile = () => {
         style={{
           width: user.imageSize,
           height: user.imageSize
+          
         }}
       />
     </div>
