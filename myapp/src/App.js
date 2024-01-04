@@ -18,6 +18,7 @@ import Form from "./components/Form";
 import LifecycleA from "./components/LifecycleA";
 import Mybutton from "./QuickStartReact/Mybutton";
 import AboutPage from "./QuickStartReact/AboutPage";
+import Profile from "./QuickStartReact/Profile";
 function App() {
   return (
     <div className="App">
@@ -25,6 +26,7 @@ function App() {
         <h1>Welcome to my App</h1>
         <Mybutton />
         <AboutPage />
+        <Profile/>
       </div>
       {/* <LifecycleA /> */}
       {/* <Form></Form> */}
