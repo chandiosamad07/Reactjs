@@ -17,12 +17,14 @@ import Inline from "./components/Inline";
 import Form from "./components/Form";
 import LifecycleA from "./components/LifecycleA";
 import Mybutton from "./QuickStartReact/Mybutton";
+import AboutPage from "./QuickStartReact/AboutPage";
 function App() {
   return (
     <div className="App">
       <div>
         <h1>Welcome to my App</h1>
         <Mybutton />
+        <AboutPage />
       </div>
       {/* <LifecycleA /> */}
       {/* <Form></Form> */}
