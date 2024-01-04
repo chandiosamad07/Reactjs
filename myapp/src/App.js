@@ -16,10 +16,15 @@ import Stylesheet from "./components/Stylesheet";
 import Inline from "./components/Inline";
 import Form from "./components/Form";
 import LifecycleA from "./components/LifecycleA";
+import Mybutton from "./QuickStartReact/Mybutton";
 function App() {
   return (
     <div className="App">
-      <LifecycleA />
+      <div>
+        <h1>Welcome to my App</h1>
+        <Mybutton />
+      </div>
+      {/* <LifecycleA /> */}
       {/* <Form></Form> */}
       {/* <Inline /> */}
      {/* <Stylesheet></Stylesheet> */}
