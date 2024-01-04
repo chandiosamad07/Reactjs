@@ -19,15 +19,19 @@ import LifecycleA from "./components/LifecycleA";
 import Mybutton from "./QuickStartReact/Mybutton";
 import AboutPage from "./QuickStartReact/AboutPage";
 import Profile from "./QuickStartReact/Profile";
+import Tictactoe from "./QuickStartReact/Tictactoe";
+import Game from "./QuickStartReact/Tictactoe";
 function App() {
   return (
     <div className="App">
-      <div>
+      <Game />
+      {/* <div>
         <h1>Welcome to my App</h1>
+        <Mybutton />
         <Mybutton />
         <AboutPage />
         <Profile/>
-      </div>
+      </div> */}
       {/* <LifecycleA /> */}
       {/* <Form></Form> */}
       {/* <Inline /> */}
