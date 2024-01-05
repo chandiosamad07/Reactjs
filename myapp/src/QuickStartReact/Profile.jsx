@@ -7,7 +7,16 @@ const user ={
 const Profile = () => {
   return (
     <div>
-    
+     <img
+        className="avatar"
+        src={user.imageUrl}
+        alt={'Photo of ' + user.name}
+        style={{
+          width: user.imageSize,
+          height: user.imageSize
+          
+        }}
+      />
     </div>
   )
 }
