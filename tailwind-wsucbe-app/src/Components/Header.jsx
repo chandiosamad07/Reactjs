@@ -23,7 +23,7 @@ const Header = () => {
           <li>Home</li>
           <li>Company</li>
           <li>About</li>
-          <li>Contact</li>
+          <li>Contact us</li>
         </ul>
         {/* 
         responsive */}
