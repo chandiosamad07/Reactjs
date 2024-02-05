@@ -34,3 +34,19 @@ nav ul {
     align-items: center;
     height: calc(100hv - 72 px);
 }
+
+.hero p{
+    font-weight: 600;
+    color: gray;
+    
+}
+
+.hero-btn{
+    display:flex;
+    gap: 40px;
+}
+
+.secondary-btn{
+    background: transparent;
+    color: gray;
+}
