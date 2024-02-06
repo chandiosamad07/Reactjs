@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
 import Component from './components/component';
 import Profile from './components/Profile';
 import Gallery from './components/Gallery';
 import { Import } from './components/Import';
 import Jsx from './components/Jsx';
+import CurlyBraces from './components/CurlyBraces';
 function App() {
   return (
   <>
@@ -12,7 +12,8 @@ function App() {
   <Profile /> */}
   {/* <Gallery />
   <Import /> */}
-  <Jsx />
+  {/* <Jsx /> */}
+  <CurlyBraces />
   </>
   );
 }
