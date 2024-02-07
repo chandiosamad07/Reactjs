@@ -5,6 +5,7 @@ import Gallery from './components/Gallery';
 import { Import } from './components/Import';
 import Jsx from './components/Jsx';
 import CurlyBraces from './components/CurlyBraces';
+import Prop from './components/Prop';
 function App() {
   return (
   <>
@@ -13,7 +14,8 @@ function App() {
   {/* <Gallery />
   <Import /> */}
   {/* <Jsx /> */}
-  <CurlyBraces />
+  {/* <CurlyBraces /> */}
+  <Prop />
   </>
   );
 }
