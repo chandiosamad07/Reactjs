@@ -6,6 +6,8 @@ const Product = (props) => {
       <h1>{props.name}</h1>
       <p>price : ${props.price}</p>
       <p>Description: {props.description}</p>
+
+      
     </div>
   )
 }
