@@ -1,17 +1,18 @@
-import React from 'react'
+import React from 'react';
+
 const Nav = () => {
   return (
-    <nav>
-    <div className=' h-72 w-72'>
-      <img className='translate-x-91 translate-y-2' src="/images/logo.png" alt="logo" />
-    </div>
-    <ul>
-      <li>Home</li>
-      <li>ABOUT</li>
-      <li>CONTACT</li>
-    </ul>
+    <nav className='flex justify-between items-center'>
+      <div>
+        <img className='' src="/images/logo.png" alt="logo" />
+      </div>
+      <ul className='flex justify-center gap-24'>
+        <li>Home</li>
+        <li>ABOUT</li>
+        <li>CONTACT</li>
+      </ul>
     </nav>
-  )
-}
+  );
+};
 
-export default Nav
+export default Nav;
