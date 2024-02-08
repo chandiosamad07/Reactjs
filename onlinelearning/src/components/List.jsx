@@ -38,7 +38,7 @@ const List = () => {
   return (
     <>
     <ul className='p-16'>{listItems}</ul>
-     <ul> {chemists.map(person => (
+     <ul className='p-16'> {chemists.map(person => (
             <li key={person.id}>{person.name}</li>
           ))}</ul>;
      </>
