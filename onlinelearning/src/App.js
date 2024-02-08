@@ -6,6 +6,7 @@ import { Import } from './components/Import';
 import Jsx from './components/Jsx';
 import CurlyBraces from './components/CurlyBraces';
 import Prop from './components/Prop';
+import List from './components/List';
 function App() {
   return (
   <>
@@ -16,6 +17,7 @@ function App() {
   {/* <Jsx /> */}
   {/* <CurlyBraces /> */}
   <Prop />
+  <List />
   </>
   );
 }

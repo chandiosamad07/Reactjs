@@ -3,7 +3,7 @@ import Greating from './Greating'
 import Product from './Product'
 const Prop = () => {
   return (
-    <div>
+    <div className='px-16'>
       <Greating name="Alice" message="Welcome to our website!" />
       <Greating name="Bob" message="Enjoy your stay!" />
     
