@@ -18,6 +18,7 @@ function App() {
   {/* <CurlyBraces /> */}
   <Prop />
   <List />
+  <Event />
   </>
   );
 }
