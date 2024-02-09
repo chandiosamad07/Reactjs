@@ -7,6 +7,7 @@ import Jsx from './components/Jsx';
 import CurlyBraces from './components/CurlyBraces';
 import Prop from './components/Prop';
 import List from './components/List';
+import Event from './components/Event';
 function App() {
   return (
   <>
