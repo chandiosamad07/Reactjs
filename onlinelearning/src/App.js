@@ -8,6 +8,7 @@ import CurlyBraces from './components/CurlyBraces';
 import Prop from './components/Prop';
 import List from './components/List';
 import Event from './components/Event';
+import API from './components/API';
 function App() {
   return (
   <>
@@ -17,9 +18,10 @@ function App() {
   <Import /> */}
   {/* <Jsx /> */}
   {/* <CurlyBraces /> */}
-  <Prop />
+  {/* <Prop />
   <List />
-  <Event />
+  <Event /> */}
+  <API />
   </>
   );
 }
