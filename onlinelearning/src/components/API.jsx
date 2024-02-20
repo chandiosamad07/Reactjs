@@ -37,8 +37,8 @@ const API = () => {
         <ul>
             {post.map(post =>(
                 <li key={post.id}>
-                    <h2>{post.title}</h2>
-                    <p>{post.body}</p>
+                    <h2 className='p-4 m-4'>{post.title}</h2>
+                    <p className='p-4 m-4'>{post.body}</p>
                 </li>
             ))}
         </ul>
