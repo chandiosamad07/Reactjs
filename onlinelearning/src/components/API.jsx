@@ -32,13 +32,13 @@ const API = () => {
     fetchData();
     },[])
   return (
-    <div>
-        <h1>Posts</h1>
+    <div className='m-4 p-4'>
+        <h1 >Posts</h1>
         <ul>
             {post.map(post =>(
                 <li key={post.id}>
-                    <h2 className='p-4 m-4'>{post.title}</h2>
-                    <p className='p-4 m-4'>{post.body}</p>
+                    <h2 >{post.title}</h2>
+                    <p >{post.body}</p>
                 </li>
             ))}
         </ul>
