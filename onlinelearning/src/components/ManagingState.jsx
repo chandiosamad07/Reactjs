@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-export default function Form() {
+export default function ManagingState() {
   const [answer, setAnswer] = useState('');
   const [error, setError] = useState(null);
   const [status, setStatus] = useState('typing');
@@ -26,19 +26,19 @@ export default function Form() {
   }
 
   return (
-    <>
+    <div className='p-4 m-4'>
       <h2>City quiz</h2>
       <p>
         In which city is there a billboard that turns air into drinkable water?
       </p>
       <form onSubmit={handleSubmit}>
-        <textarea
+        <textarea className='bg-gray-100'
           value={answer}
           onChange={handleTextareaChange}
           disabled={status === 'submitting'}
         />
         <br />
-        <button disabled={
+        <button className= 'bg-gray-100' disabled={
           answer.length === 0 ||
           status === 'submitting'
         }>
@@ -50,7 +50,7 @@ export default function Form() {
           </p>
         }
       </form>
-    </>
+    </div>
   );
 }
 

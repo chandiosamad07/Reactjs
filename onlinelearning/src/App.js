@@ -9,6 +9,8 @@ import Prop from './components/Prop';
 import List from './components/List';
 import Event from './components/Event';
 import API from './components/API';
+import ManagingState from './components/ManagingState';
+
 function App() {
   return (
   <>
@@ -21,7 +23,8 @@ function App() {
   {/* <Prop />
   <List />
   <Event /> */}
-  <API />
+  {/* <API /> */}
+  <ManagingState />
   </>
   );
 }
