@@ -26,7 +26,7 @@ const API = () => {
         setPosts(josnData);
        }
        catch{
-        console.log('Error Fetching Data: ')
+        console.log('Error Fetching Data : ')
        }
     }
     fetchData();
