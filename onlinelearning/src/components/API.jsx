@@ -33,7 +33,7 @@ const API = () => {
     },[])
   return (
     <div className='m-4 p-4'>
-        <h1 >Posts</h1>
+        <h1  className='text bg-red'>Posts</h1>
         <ul>
             {post.map(post =>(
                 <li key={post.id}>
