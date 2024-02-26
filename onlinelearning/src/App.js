@@ -23,8 +23,8 @@ function App() {
   {/* <Prop />
   <List />
   <Event /> */}
-  {/* <API /> */}
-  <ManagingState />
+  <API />
+  {/* <ManagingState /> */}
   </>
   );
 }
