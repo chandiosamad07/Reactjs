@@ -4,6 +4,15 @@ import React, {useState , useEffect} from 'react'
 const API = () => {
     const [post , setPosts] = useState([]);
     const [data , setData] = useState([]);
+    //first method
+
+    // useEffect(()=>{
+    //     fetch('https://jsonplaceholder.typicode.com/posts?_limit=10')
+    //     .then(response => response.json())
+    //     .then(data => setPosts(data))
+    //     .catch(error => console.error('Error fetching posts: ', error));
+
+    // },[])
 
     //second method to fetch API
     useEffect(()=>{
