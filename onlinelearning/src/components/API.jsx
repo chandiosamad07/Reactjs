@@ -34,14 +34,12 @@ const API = () => {
   return (
     <div className='m-4 p-4'>
         <h1>API Posts</h1>
-        <ul>
-            {post.map(post =>(
-                <li key={post.id}>
-                    <h2 >{post.title}</h2>
-                    <p >{post.body}</p>
-                </li>
-            ))}
-        </ul>
+        {post.map( post =>(
+        <li key={post.id}>
+            <h1>{post.title}</h1>
+            <h1>{post.body}</h1>
+        </li>
+     ))}
     </div>
   )
 }
