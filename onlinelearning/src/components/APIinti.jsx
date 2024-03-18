@@ -12,26 +12,23 @@ const APIinti = () => {
 // .catch(error => console.error("error fetching" , error));
 // },[])
 
-useEffect(()=>{
 
-  const fetchApidata = async()=>{
+useEffect(()=>{
+const fetchAPI = async () =>{
     try{
-        const respone = await fetch ("https://jsonplaceholder.typicode.com/posts")
-        if(!respone.ok){
-            throw new Error('Failed to fetch data');
-        }
-        const JsonData = await respone.json()
-        setPost(JsonData)
-        console.log(JsonData , "This json data")
+    const response = await fetch ('https://jsonplaceholder.typicode.com/posts')
+    if(!response.ok){
+        throw new Error ("Failed to fetch data")
+    }
+    const josnData = await response.json();
+    setPost(josnData);
+
     }
     catch{
-        console.log("Geting this error from API")
+        console.log("API Getting Error " , Error.message)
     }
-  }
-  fetchApidata();
-
+}
 },[])
-
   return (
     <div className="m-4 p-4">
      <h1>Post</h1>
