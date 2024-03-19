@@ -11,6 +11,8 @@ import Event from './components/Event';
 import API from './components/API';
 import ManagingState from './components/ManagingState';
 import APIinti from './components/APIinti';
+import Test from './components/Datapassing/Test';
+
 
 function App() {
   return (
@@ -25,7 +27,7 @@ function App() {
   <List />
   <Event /> */}
   {/* <API /> */}
-  <APIinti />
+  <Test />
   {/* <ManagingState /> */}
   </>
   );

@@ -1,10 +1,11 @@
-import React from 'react'
-import Sidebar from './Sidebar'
-import Body from './Body'
+import React, { useState } from 'react';
+import Sidebar from './Sidebar';
+import Body from './Body';
 
-const Test = () => {
- const [selectedOption, setSelectedOption] = useState('default');
- const handleSidebarClick = (option) => {
+function Test() {
+  const [selectedOption, setSelectedOption] = useState('default');
+
+  const handleSidebarClick = (option) => {
     setSelectedOption(option);
   };
 
@@ -13,7 +14,7 @@ const Test = () => {
       <Sidebar onSidebarClick={handleSidebarClick} />
       <Body selectedOption={selectedOption} />
     </div>
-  )
+  );
 }
 
-export default Test
+export default Test;

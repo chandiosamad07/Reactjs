@@ -1,13 +1,13 @@
-import React from 'react'
+// Sidebar.js
+import React from 'react';
 
-const Sidebar = ({onSidebarClick}) => {
+function Sidebar({ onSidebarClick }) {
   return (
-    <>
-    <button onClick={(onSidebarClick('option1'))}>Option 1</button>
-    <button onClick={(onSidebarClick('option2'))}>Option 2</button>
-
-    </>
-    )
+    <div>
+      <button onClick={() => onSidebarClick('option1')}>Option samad</button>
+      <button onClick={() => onSidebarClick('option2')}>Option hello</button>
+    </div>
+  );
 }
 
-export default Sidebar
+export default Sidebar;
