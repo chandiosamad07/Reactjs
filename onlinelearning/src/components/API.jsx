@@ -35,10 +35,10 @@ const API = () => {
     <div className='m-4 p-4'>
         <h1>API Posts</h1>
         {post.map( post =>(
-        <li key={post.id}>
+        <p key={post.id}>
             <h1>{post.title}</h1>
             <h1>{post.body}</h1>
-        </li>
+        </p>
      ))}
     </div>
   )
