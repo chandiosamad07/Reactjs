@@ -12,6 +12,7 @@ import API from './components/API';
 import ManagingState from './components/ManagingState';
 import APIinti from './components/APIinti';
 import Test from './components/Datapassing/Test';
+import Counter from './components/Hooks/Counter';
 
 
 function App() {
@@ -27,8 +28,9 @@ function App() {
   <List />
   <Event /> */}
   {/* <API /> */}
-  <Test />
+  {/* <Test /> */}
   {/* <ManagingState /> */}
+  <Counter />
   </>
   );
 }

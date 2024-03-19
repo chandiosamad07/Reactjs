@@ -2,6 +2,7 @@
 import React from 'react';
 
 function Body({ selectedOption }) {
+    console.log(selectedOption)
   return (
     <div>
       {selectedOption === 'option1' && <div>Option 1 Content</div>}
