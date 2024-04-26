@@ -27,10 +27,10 @@ function App() {
   {/* <Prop />
   <List />
   <Event /> */}
-  {/* <API /> */}
+  <API />
   {/* <Test /> */}
   {/* <ManagingState /> */}
-  <Counter />
+  {/* <Counter /> */}
   </>
   );
 }

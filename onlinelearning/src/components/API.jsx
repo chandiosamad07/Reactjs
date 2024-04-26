@@ -15,39 +15,39 @@ const API = () => {
     // },[])
 
     //second method to fetch API
-    // useEffect(()=>{
-    //     const fetchData = async () =>{
-    //    try{
-    //     const response = await fetch('https://jsonplaceholder.typicode.com/posts?_limit=10');
-    //     if(!response.ok){
-    //         throw new Error('Failed to fetch data');
-    //     }
-    //     const josnData = await response.json();
-    //     setPosts(josnData);
-    //    }
-    //    catch{
-    //     console.log('Error Fetching Data : ')
-    //    }
-    // }
-    // fetchData();
-    // },[])
-
     useEffect(()=>{
-    
       const fetchData = async ()=>{
         try{
-        const response = await fetch('https://jsonplaceholder.typicode.com/posts?_limit=10')
-        if(!response.ok){
-          throw new Error('Faild to fetch data')
+          const response = await fetch('https://jsonplaceholder.typicode.com/posts?_limit=10')
+          if(!response.ok){
+            throw new Error('Faild to data')
+          }
+          const json = await response.json()
+          setPosts(json)
         }
-        const json = await response.json()
-        setPosts(json)
-            }
-            catch{
-              console.log('Error Fecting Data')
-            }}
-            fetchData()
-    },[])
+        catch{
+          console.log('Error in fecting data')
+        }
+      }
+      fetchData();
+    })
+
+    // useEffect(()=>{
+    
+    //   const fetchData = async ()=>{
+    //     try{
+    //     const response = await fetch('https://jsonplaceholder.typicode.com/posts?_limit=10')
+    //     if(!response.ok){
+    //       throw new Error('Faild to fetch data')
+    //     }
+    //     const json = await response.json()
+    //     setPosts(json)
+    //         }
+    //         catch{
+    //           console.log('Error Fecting Data')
+    //         }}
+    //         fetchData()
+    // },[])
   return (
     <div className='m-4 p-4'>
         <h1>API Posts</h1>
