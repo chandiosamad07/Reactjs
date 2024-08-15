@@ -18,15 +18,7 @@ import Counter from './components/Hooks/Counter';
 function App() {
   return (
   <>
-  {/* <Component />
-  <Profile /> */}
-  {/* <Gallery />
-  <Import /> */}
-  {/* <Jsx /> */}
-  {/* <CurlyBraces /> */}
-  {/* <Prop />
-  <List />
-  <Event /> */}
+
   <API />
   {/* <Test /> */}
   {/* <ManagingState /> */}
