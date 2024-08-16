@@ -15,12 +15,14 @@ import Test from './components/Datapassing/Test';
 import Counter from './components/Hooks/Counter';
 import CDM from './components/LifeCycle/CDM';
 import CWU from './components/LifeCycle/CWU';
+import CDU from './components/LifeCycle/CDU';
 
 
 function App() {
   return (
   <>
-  <CWU />
+  <CDU />
+  {/* <CWU /> */}
   {/* <CDM /> */}
   {/* <Component />
   <Profile /> */}

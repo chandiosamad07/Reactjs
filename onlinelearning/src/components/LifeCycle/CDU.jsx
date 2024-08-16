@@ -14,11 +14,13 @@ export default class CDU extends Component {
             count:this.state.count+1
         })
     }
-    
+    componentDidUpdate (p,s,ss){
+        console.log("componentDidUpdate",s)
+    }
   render() {
     return (
       <div>
-        <button onClick={this.update}>Update counter {counter}</button>
+        <button onClick={this.update}>Update counter {this.state.count}</button>
       </div>
     )
   }
