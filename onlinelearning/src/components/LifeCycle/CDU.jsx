@@ -8,11 +8,17 @@ export default class CDU extends Component {
          count:0
       }
     }
+
+    update =()=>{
+        this.setState({
+            count:this.state.count+1
+        })
+    }
     
   render() {
     return (
       <div>
-        <button >Update counter {counter}</button>
+        <button onClick={this.update}>Update counter {counter}</button>
       </div>
     )
   }
