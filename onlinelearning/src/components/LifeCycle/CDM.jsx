@@ -15,7 +15,7 @@ export default class CDM extends Component {
     console.log("render")
     return (
       <div>
-        
+        componentDidMount
       </div>
     )
   }

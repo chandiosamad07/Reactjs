@@ -14,12 +14,14 @@ import APIinti from './components/APIinti';
 import Test from './components/Datapassing/Test';
 import Counter from './components/Hooks/Counter';
 import CDM from './components/LifeCycle/CDM';
+import CWU from './components/LifeCycle/CWU';
 
 
 function App() {
   return (
   <>
-  <CDM />
+  <CWU />
+  {/* <CDM /> */}
   {/* <Component />
   <Profile /> */}
   {/* <Gallery />
