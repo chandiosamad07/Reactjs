@@ -13,11 +13,13 @@ import ManagingState from './components/ManagingState';
 import APIinti from './components/APIinti';
 import Test from './components/Datapassing/Test';
 import Counter from './components/Hooks/Counter';
+import CDM from './components/LifeCycle/CDM';
 
 
 function App() {
   return (
   <>
+  <CDM />
   {/* <Component />
   <Profile /> */}
   {/* <Gallery />
@@ -27,7 +29,7 @@ function App() {
   {/* <Prop />
   <List />
   <Event /> */}
-  <API />
+  {/* <API /> */}
   {/* <Test /> */}
   {/* <ManagingState /> */}
   {/* <Counter /> */}
