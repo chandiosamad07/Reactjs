@@ -22,11 +22,18 @@ import TimerStop from './components/Hooks1/TimerStop';
 import ThemeButton from './components/Hooks1/ThemeButton';
 import ThemeContext from './components/Hooks1/ThemeContext';
 import ApiIntegration from './components/Hooks1/ApiIntegration';
+import React from 'react';
+import ComponentC from './components/Hooks1/Context/ComponentC';
+
+export const useContext = React.createContext()
 
 function App() {
   return (
   <>
-  <ApiIntegration />
+  <useContext.Provider value={"Abdul"}>
+  <ComponentC />
+  </useContext.Provider>
+  {/* <ApiIntegration /> */}
     {/* <ThemeContext.Provider value="dark">
             <ThemeButton />
         </ThemeContext.Provider> */}

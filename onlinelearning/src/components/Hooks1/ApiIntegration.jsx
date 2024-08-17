@@ -6,7 +6,7 @@ const ApiIntegration = () => {
     useEffect(()=>{
         const fetchAPI = async()=>{
             try{
-                let response = await fetch('https://jsonplaceholder.typicode.com/posts')
+                let response = await fetch('https://jsonplaceholder.typicode.com/posts?_limit=2')
                 if(!response.ok){
                     throw new console.error("Response not ok");
                 }
