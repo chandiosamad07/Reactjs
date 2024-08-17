@@ -18,11 +18,13 @@ import CWU from './components/LifeCycle/CWU';
 import CDU from './components/LifeCycle/CDU';
 import Counter1 from './components/Hooks1/Counter';
 import Timer from './components/Hooks1/Timer';
+import TimerStop from './components/Hooks1/TimerStop';
 
 function App() {
   return (
   <>
-  <Timer />
+  <TimerStop />
+  {/* <Timer /> */}
   {/* <Counter1 /> */}
   {/* <CDU /> */}
   {/* <CWU /> */}
