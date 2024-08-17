@@ -16,12 +16,12 @@ import Counter from './components/Hooks/Counter';
 import CDM from './components/LifeCycle/CDM';
 import CWU from './components/LifeCycle/CWU';
 import CDU from './components/LifeCycle/CDU';
-
+import Counter1 from './components/Hooks1/Counter';
 
 function App() {
   return (
   <>
-  <Counter />
+  <Counter1 />
   {/* <CDU /> */}
   {/* <CWU /> */}
   {/* <CDM /> */}
