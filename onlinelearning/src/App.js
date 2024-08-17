@@ -17,11 +17,13 @@ import CDM from './components/LifeCycle/CDM';
 import CWU from './components/LifeCycle/CWU';
 import CDU from './components/LifeCycle/CDU';
 import Counter1 from './components/Hooks1/Counter';
+import Timer from './components/Hooks1/Timer';
 
 function App() {
   return (
   <>
-  <Counter1 />
+  <Timer />
+  {/* <Counter1 /> */}
   {/* <CDU /> */}
   {/* <CWU /> */}
   {/* <CDM /> */}
