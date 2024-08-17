@@ -19,11 +19,18 @@ import CDU from './components/LifeCycle/CDU';
 import Counter1 from './components/Hooks1/Counter';
 import Timer from './components/Hooks1/Timer';
 import TimerStop from './components/Hooks1/TimerStop';
+import ThemeButton from './components/Hooks1/ThemeButton';
+import ThemeContext from './components/Hooks1/ThemeContext';
+import ApiIntegration from './components/Hooks1/ApiIntegration';
 
 function App() {
   return (
   <>
-  <TimerStop />
+  <ApiIntegration />
+    {/* <ThemeContext.Provider value="dark">
+            <ThemeButton />
+        </ThemeContext.Provider> */}
+  {/* <TimerStop /> */}
   {/* <Timer /> */}
   {/* <Counter1 /> */}
   {/* <CDU /> */}
