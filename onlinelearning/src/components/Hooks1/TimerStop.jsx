@@ -1,24 +1,24 @@
 import React, { useEffect, useState } from 'react'
 
 const TimerStop = () => {
-    const [count ,setCount] = useState(0)
-    useEffect (()=>{
-        const interval = setInterval(()=>{
+    const [count , setCount ]=useState(0)
+    
+    useEffect(()=>{
+        const interval = setInterval (()=>{
             setCount(count => {
-                if(count>=10){
+                if(count >=10){
                     clearInterval(interval)
                     return count
                 }
-                  return  count +1
-        })
+               return count +1
+            })
         },1000)
-
-        return () => clearInterval(interval)
+        return ()=>clearInterval(interval)
     },[])
   return (
     <div>
-        Timer {count} Seconds    
-  </div>
+      Timer {count}
+    </div>
   )
 }
 
