@@ -21,7 +21,8 @@ import CDU from './components/LifeCycle/CDU';
 function App() {
   return (
   <>
-  <CDU />
+  <Counter />
+  {/* <CDU /> */}
   {/* <CWU /> */}
   {/* <CDM /> */}
   {/* <Component />
