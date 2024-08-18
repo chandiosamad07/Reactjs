@@ -24,15 +24,27 @@ import ThemeContext from './components/Hooks1/ThemeContext';
 import ApiIntegration from './components/Hooks1/ApiIntegration';
 import React from 'react';
 import ComponentC from './components/Hooks1/Context/ComponentC';
-
+import Nav from './components/Navbar/Nav';
+import { Route, Routes } from 'react-router-dom';
+import Home from './components/Navbar/Home';
+import About from './components/Navbar/About';
+import Contact from './components/Navbar/Contact';
 export const useContext = React.createContext()
 
 function App() {
   return (
   <>
-  <useContext.Provider value={"Abdul"}>
+
+  <Routes>
+    <Route path='/' element={<Home />}/>
+    <Route path='/about' element={<About />} />
+    <Route path='/contact' element = {<Contact />} />
+  </Routes>
+
+
+  {/* <useContext.Provider value={"Abdul"}>
   <ComponentC />
-  </useContext.Provider>
+  </useContext.Provider> */}
   {/* <ApiIntegration /> */}
     {/* <ThemeContext.Provider value="dark">
             <ThemeButton />
