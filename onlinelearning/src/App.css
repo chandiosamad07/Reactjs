@@ -6,3 +6,10 @@
 .profile{
   display: flex;
 }
+
+.Nav{
+  display: flex;
+  gap: 25px;
+  background-color: maroon;
+  color: white;
+}
