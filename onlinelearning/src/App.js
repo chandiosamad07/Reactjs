@@ -29,6 +29,8 @@ import { Route, Routes } from 'react-router-dom';
 import Home from './components/Navbar/Home';
 import About from './components/Navbar/About';
 import Contact from './components/Navbar/Contact';
+import SimpleForm from './components/SimpleFrom';
+
 export const useContext = React.createContext()
 
 function App() {
@@ -40,8 +42,8 @@ function App() {
     <Route path='/about' element={<About />} />
     <Route path='/contact' element = {<Contact />} />
   </Routes>
-
-
+{/* 
+<SimpleForm /> */}
   {/* <useContext.Provider value={"Abdul"}>
   <ComponentC />
   </useContext.Provider> */}

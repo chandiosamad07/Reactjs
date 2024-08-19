@@ -6,7 +6,7 @@ const ComponentF = () => {
     <useContext.Consumer>
         {
             user =>{
-                return <div>user conext value user {user}</div>
+                return <div>user conext value user hello  {user}</div>
             }
         }
     </useContext.Consumer>
