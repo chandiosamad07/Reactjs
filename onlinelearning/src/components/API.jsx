@@ -18,11 +18,12 @@ const API = () => {
     useEffect(()=>{
       const fetchData = async ()=>{
         try{
-          const response = await fetch('https://jsonplaceholder.typicode.com/posts?_limit=10')
+          const response = await fetch('')
           if(!response.ok){
             throw new Error('Faild to data')
           }
-          
+          const json = await response.json()
+          setPosts(json)
         }
         catch{
           console.log('Error in fecting data')
