@@ -22,14 +22,13 @@ const API = () => {
           if(!response.ok){
             throw new Error('Faild to data')
           }
-          const json = await response.json()
-          setPosts(json)
+          
         }
         catch{
           console.log('Error in fecting data')
         }
       }
-   
+      fetchData();
     })
 
     // useEffect(()=>{
