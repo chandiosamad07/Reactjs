@@ -29,7 +29,7 @@ const API = () => {
           console.log('Error in fecting data')
         }
       }
-      fetchData();
+   
     })
 
     // useEffect(()=>{
