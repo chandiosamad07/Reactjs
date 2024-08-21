@@ -18,7 +18,7 @@ const API = () => {
     useEffect(()=>{
       const fetchData = async ()=>{
         try{
-          const response = await fetch('')
+          const response = await fetch('https://jsonplaceholder.typicode.com/posts?_limit=10')
           if(!response.ok){
             throw new Error('Faild to data')
           }
