@@ -30,6 +30,7 @@ import Home from './components/Navbar/Home';
 import About from './components/Navbar/About';
 import Contact from './components/Navbar/Contact';
 import SimpleForm from './components/SimpleFrom';
+import TODO from './components/TODO';
 
 export const useContext = React.createContext()
 
@@ -37,11 +38,12 @@ function App() {
   return (
   <>
 
-  <Routes>
+<TODO />
+  {/* <Routes>
     <Route path='/' element={<Home />}/>
     <Route path='/about' element={<About />} />
     <Route path='/contact' element = {<Contact />} />
-  </Routes>
+  </Routes> */}
 {/* 
 <SimpleForm /> */}
   {/* <useContext.Provider value={"Abdul"}>
